@@ -1,19 +1,17 @@
-name: 'CodeFreeze by Reviewer Count'
-description: 'Changes reviewer counts with special PR blocking merges'
-author: ''
+name: 'The name of your action here'
+description: 'Provide a description here'
+author: 'Your name or organization here'
 
 # Define your inputs here.
 inputs:
-  token:
-    description: 'Github token'
+  milliseconds:
+    description: 'Your input description here'
     required: true
-  branch:
-    description: 'Branch to be applied'
-    required: true
+    default: '1000'
 
 # Define your outputs here.
 outputs:
-  debug:
+  time:
     description: 'Your output description here'
 
 runs:
